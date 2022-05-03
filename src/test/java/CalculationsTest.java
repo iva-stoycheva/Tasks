@@ -6,7 +6,7 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 
 public class CalculationsTest {
     @Test
-    @DisplayName("Checking for correctly RPN calculatio!")
+    @DisplayName("Checking for correctly RPN calculation!")
     void calculateRPN_PostfixGiven_ShouldShowCalculationsResult() {
         String[] tokens = new String[] {"2", "3", "*", "1", "-"};
         assertEquals(5, CalculationsRPN.evaluateRPN(tokens));
