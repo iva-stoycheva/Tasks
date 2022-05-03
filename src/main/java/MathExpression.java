@@ -7,4 +7,5 @@ public class MathExpression {
         double result = expression.evaluate();
         return result;
     }
+
 }
